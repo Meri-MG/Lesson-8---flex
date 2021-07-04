@@ -1,19 +1,38 @@
+body{
+    background-color: #fafafa;
+}
+
+
 .container {
     width: 1280px;
     margin: 0 auto;
+    position: relative;
 }
+nav{
+    position: absolute;
+    width: 100%;
+    /* background: rgba(255, 208, 208, 0.157); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 0 ;
+    padding: 0 140px 0 67px;
+
+}
+
 .bg-image {
-    background-image: url('../images/bg-image.png');
-	height: 900px;
+    background-image:  linear-gradient(1deg, rgba(0, 0, 253, 0.178) 0%, rgba(0, 0, 253, 0.274) 100%), url('../images/bg-image.png');
 	background-repeat: no-repeat;
+	height: 900px;
 	width: 100%;
 	background-size: cover;
 	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .title {
     /* width: 1077px; */
-    margin-top: 336px;
-    margin-right: 200px; 
+    color:white;
     font-size: 100px;
 }
 ul {
@@ -32,12 +51,11 @@ li a {
     color: #D9F0FF;
     font-size: 28px;
     font-weight: bold;
-    margin-left: 67px;
-    margin-top: 100px;
 }
 .section1 {
     display: flex;
     flex-direction: row;
+    background-color: white;
 }
 .box1 {
     display: flex;
@@ -61,6 +79,7 @@ li a {
     font-size: 16px;
     letter-spacing: 1.5px;
     line-height: 25px;
+    opacity: 0.5;
 }
 .box2 {
     width: 640px;
@@ -73,16 +92,18 @@ button {
     border-radius: 40px;
     color: #D9F0FF;
     border: none;
+    font-weight: bold;
     font-size: 14px;
     letter-spacing: 6px;
     font-family: 'Lato', sans-serif;
 }
-.section2 {
+.section2.container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 77px;
+    width: 1171px;
 }
 .section2-intro {
     display: flex;
@@ -107,26 +128,31 @@ button {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 1171px;
-    height: 965px;
     justify-content: space-between;
     margin-top: 62px;
 }
 .block {
+    background-color: white;
+    border: 1px solid #cecece;
+    width: 371px;
+    height: 372px;
+    margin-bottom: 25px;
+}
+.block .inner-block{
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 369px;
-    height: 372px;
+
 }
+
 .block h3 {
     font-size: 18px;
     margin-top: 27px;
 }
 .block p {
     width: 251px;
-    height: 263px;
     line-height: 25px;
 }
 .images {
