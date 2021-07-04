@@ -1,0 +1,146 @@
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+.bg-image {
+    background-image: url('../images/bg-image.png');
+	height: 900px;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
+	display: flex;
+}
+.title {
+    /* width: 1077px; */
+    margin-top: 336px;
+    margin-right: 200px; 
+    font-size: 100px;
+}
+ul {
+    display: flex;
+    width: 345px;
+    height: 17px;
+    justify-content: space-between;
+    margin-left: 607px;
+}
+li a {
+    text-transform: uppercase;
+    color: #D9F0FF;
+    
+}
+.logo a {
+    color: #D9F0FF;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 67px;
+    margin-top: 100px;
+}
+.section1 {
+    display: flex;
+    flex-direction: row;
+}
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 640px;
+    height: 601px;
+}
+.box1-container {
+    margin: 0 auto;
+}
+.box1 h2 {
+    width: 468px;
+    height: 186px;
+    font-size: 50px;
+}
+.box1 p {
+    width: 457px;
+    height: 128px;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+}
+.box2 {
+    width: 640px;
+    height: 601px;
+}
+button {
+    width: 307px;
+    height: 72px;
+    background-color: #325DFF;
+    border-radius: 40px;
+    color: #D9F0FF;
+    border: none;
+    font-size: 14px;
+    letter-spacing: 6px;
+    font-family: 'Lato', sans-serif;
+}
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 77px;
+}
+.section2-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 771px;
+    height: 130px;
+}
+.section2 h3 {
+    font-size: 35px;
+    line-height: 42px;
+    margin-bottom: 15px;
+}
+.section2 p {
+    width: 771px;
+    height: 71px;
+    line-height: 25px;
+    text-align:center;
+}
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1171px;
+    height: 965px;
+    justify-content: space-between;
+    margin-top: 62px;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 369px;
+    height: 372px;
+}
+.block h3 {
+    font-size: 18px;
+    margin-top: 27px;
+}
+.block p {
+    width: 251px;
+    height: 263px;
+    line-height: 25px;
+}
+.images {
+    background-color: #325DFF;
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+}
