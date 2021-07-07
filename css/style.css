@@ -11,7 +11,8 @@ body{
 
 
 .container {
-    width: 1280px;
+    max-width: 1280px;
+    width: 100%;
     margin: 0 auto;
     position: relative;
 }
@@ -36,9 +37,8 @@ nav{
     background-image:  -o-linear-gradient(89deg, rgba(0, 0, 253, 0.178) 0%, rgba(0, 0, 253, 0.274) 100%), url('../images/bg-image.png');
     background-image:  linear-gradient(1deg, rgba(0, 0, 253, 0.178) 0%, rgba(0, 0, 253, 0.274) 100%), url('../images/bg-image.png');
 	background-repeat: no-repeat;
+    background-size: cover;
 	height: 900px;
-	width: 100%;
-	background-size: cover;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -57,12 +57,12 @@ ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 345px;
+    max-width: 345px;
+    width: 100%;
     height: 17px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-left: 607px;
 }
 li a {
     text-transform: uppercase;
@@ -98,19 +98,22 @@ li a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 640px;
+    max-width: 640px;
+    width: 100%;
     height: 601px;
 }
 .box1-container {
     margin: 0 auto;
 }
 .box1 h2 {
-    width: 468px;
+    max-width: 468px;
+    width: 100%;
     height: 186px;
     font-size: 50px;
 }
 .box1 p {
-    width: 457px;
+    max-width: 457px;
+    width: 100%;
     height: 128px;
     font-size: 16px;
     letter-spacing: 1.5px;
@@ -118,11 +121,16 @@ li a {
     opacity: 0.5;
 }
 .box2 {
-    width: 640px;
+    max-width: 640px;
+    width:  100%;
     height: 601px;
 }
+.box2 img {
+    width: 100%;
+}
 button {
-    width: 307px;
+    max-width: 307px;
+    width: 100%;
     height: 72px;
     background-color: #325DFF;
     border-radius: 40px;
@@ -148,7 +156,8 @@ button {
         -ms-flex-direction: column;
             flex-direction: column;
     margin-top: 77px;
-    width: 1171px;
+    max-width: 1171px;
+    width: 100%;
 }
 .section2-intro {
     display: -webkit-box;
@@ -164,7 +173,8 @@ button {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 771px;
+    max-width: 771px;
+    width: 100%;
     height: 130px;
 }
 .section2 h3 {
@@ -173,7 +183,8 @@ button {
     margin-bottom: 15px;
 }
 .section2 p {
-    width: 771px;
+    max-width: 771px;
+    width: 100%;
     height: 71px;
     line-height: 25px;
     text-align:center;
@@ -196,7 +207,8 @@ button {
 .block {
     background-color: white;
     border: 1px solid #cecece;
-    width: 371px;
+    max-width: 371px;
+    width: 100%;
     height: 372px;
     margin-bottom: 25px;
 }
